@@ -1,0 +1,314 @@
+2025-06-29 15:07:27.039 - Library Event: Patron Registered - New patron registered: Alice Johnson
+2025-06-29 15:07:27.039 - Library Event: Patron Registered - New patron registered: Bob Smith
+2025-06-29 15:07:27.040 - Library Event: Patron Registered - New patron registered: Carol Davis
+2025-06-29 15:07:27.041 - Library Event: Patron Registered - New patron registered: David Wilson
+2025-06-29 15:07:27.061 - Library Event: Book Borrowed - Book 'Harry Potter and the Sorcerer's Stone' borrowed by Alice Johnson
+2025-06-29 15:07:27.063 - Library Event: Book Borrowed - Book 'To Kill a Mockingbird' borrowed by Bob Smith
+2025-06-29 15:07:27.064 - Library Event: Book Borrowed - Book '1984' borrowed by Carol Davis
+2025-06-29 15:07:27.067 - Library Event: Book Returned - Book 'To Kill a Mockingbird' returned by Bob Smith
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - === Starting Library Management System Demo ===
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - --- BOOK MANAGEMENT FEATURES ---
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 1. Adding Books:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 2. Search by ISBN:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Found book by ISBN:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication -   Title: Effective Java
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication -   Author: Joshua Bloch
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication -   ISBN: 978-0134685991
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication -   Publication Year: 2018
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication -   Status: AVAILABLE
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 2.1. Search by Non-existent ISBN:
+2025-07-02 09:46:53 [main] WARN  com.pm.library.LibraryApplication - No book found with ISBN: 978-9999999999
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 3. Updating Book:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 4. All Books in Library:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Total books: 4
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Java: The Complete Reference (AVAILABLE)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Design Patterns (AVAILABLE)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Effective Java - Third Edition (AVAILABLE)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Clean Code (AVAILABLE)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - --- PATRON MANAGEMENT FEATURES ---
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 1. Adding Patrons:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 2. Updating Patron Information:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 3. Search Patrons by Name ('Smith'):
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Found: Alice Smith-Johnson (ID: P001)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 4. All Patrons:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Total patrons: 4
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - David Wilson (ID: P004)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Alice Smith-Johnson (ID: P001)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Carol Davis (ID: P003)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Bob Johnson (ID: P002)
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - --- LENDING PROCESS FEATURES ---
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 1. Book Checkout Process:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Checkout results: true, true, true
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 2. Attempting to checkout already borrowed book:
+2025-07-02 09:46:53 [main] WARN  com.pm.library.LibraryApplication - Should fail: false
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 3. Book Return Process:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Return result: true
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 4. Patron Borrowing History:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Alice's borrowing history: [978-0134685991]
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - --- INVENTORY TRACKING FEATURES ---
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 1. Available Books:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Available count: 2
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Available: Java: The Complete Reference
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Available: Effective Java - Third Edition
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 2. Borrowed Books:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Borrowed count: 2
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Borrowed: Design Patterns
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - - Borrowed: Clean Code
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 3. Inventory Summary:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Total books: 4
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Available books: 2
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Borrowed books: 2
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - 4. Removing a Book:
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - Book removal result: true
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - New total books: 3
+2025-07-02 09:46:53 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Demo Completed ===
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - === Starting Library Management System with Design Patterns ===
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - --- FACTORY PATTERN DEMONSTRATION ---
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book added - Effective Java (ISBN: 978-0134685991)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Total books now: 1
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book added - Clean Code (ISBN: 978-0132350884)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Total books now: 2
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book added - Design Patterns (ISBN: 978-0201633612)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Total books now: 3
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Created books using Factory Pattern:
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Design Patterns [Type: AudioBook]
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Effective Java [Type: Physical]
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Clean Code [Type: Digital]
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Title search for 'Java': 1 results
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Found: Effective Java
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Author search for 'Martin': 1 results
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Found: Clean Code by Robert C. Martin
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - ISBN search: 1 results
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - - Found: Effective Java (ISBN: 978-0134685991)
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Performing operations that trigger observer notifications:
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book borrowed - Effective Java by Alice Smith (ID: P001)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Borrowed books now: 1
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Checkout result: true
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book returned - Effective Java by Alice Smith (ID: P001)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Borrowed books now: 0
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Return result: true
+2025-07-02 10:21:00 [main] INFO  c.p.l.observer.LibraryEventLogger - EVENT: Book removed - Design Patterns (ISBN: 978-0201633612)
+2025-07-02 10:21:00 [main] DEBUG c.p.l.observer.InventoryTracker - INVENTORY: Total books now: 2
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - Book removal result: true
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - All observer notifications have been logged above!
+2025-07-02 10:21:00 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Demo with Design Patterns Completed ===
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - === Starting Library Management System with Observer & Strategy Patterns ===
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - Adding books (watch for observer notifications):
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_ADDED - Effective Java by Joshua Bloch
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 1
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_ADDED - Clean Code by Robert C. Martin
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 2
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_ADDED - Design Patterns by Gang of Four
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 3
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - Removing a book (watch for observer notifications):
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_REMOVED - Design Patterns by Gang of Four
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 2
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_ADDED - Java Programming by James Gosling
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 3
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_ADDED - Python Guide by Guido van Rossum
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Total books now: 4
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - 1. Search by Title:
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication -    Found: Effective Java
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication -    Found: Java Programming
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - 2. Search by Author:
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication -    Found: Clean Code by Robert C. Martin
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - 3. Search by ISBN:
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication -    Found: Effective Java (ISBN: 978-0134685991)
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - 4. Search by Year:
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication -    Found: Java Programming (Year: 2020)
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - --- LENDING WITH OBSERVER PATTERN ---
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - Borrowing and returning books (watch for observer notifications):
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_BORROWED - Effective Java borrowed by Alice Johnson
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Book borrowed - Effective Java borrowed by Alice Johnson
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_BORROWED - Clean Code borrowed by Bob Smith
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Book borrowed - Clean Code borrowed by Bob Smith
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 LIBRARY EVENT: BOOK_RETURNED - Effective Java returned by Alice Johnson
+2025-07-02 10:45:07 [main] INFO  c.p.l.observer.InventoryObserver - 📊 INVENTORY: Book returned - Effective Java returned by Alice Johnson
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - All observer notifications logged above!
+2025-07-02 10:45:07 [main] INFO  com.pm.library.LibraryApplication - === Design Patterns Demo Completed ===
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - === Library Management System  ===
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - Adding books (watch for observer notifications):
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_ADDED - Effective Java by Joshua Bloch
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 1
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_ADDED - Clean Code by Robert C. Martin
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 2
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_ADDED - Design Patterns by Gang of Four
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 3
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - Removing a book (watch for observer notifications):
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_REMOVED - Design Patterns by Gang of Four
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 2
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_ADDED - Java Programming by James Gosling
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 3
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_ADDED - Python Guide by Guido van Rossum
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Total books now: 4
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - 1. Search by Title:
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication -    Found: Effective Java
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication -    Found: Java Programming
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - 2. Search by Author:
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication -    Found: Clean Code by Robert C. Martin
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - 3. Search by ISBN:
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication -    Found: Effective Java (ISBN: 978-0134685991)
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - 4. Search by Year:
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication -    Found: Java Programming (Year: 2020)
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - --- LENDING WITH OBSERVER PATTERN ---
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - Borrowing and returning books (watch for observer notifications):
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_BORROWED - Effective Java borrowed by Alice Johnson
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Book borrowed - Effective Java borrowed by Alice Johnson
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_BORROWED - Clean Code borrowed by Bob Smith
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Book borrowed - Clean Code borrowed by Bob Smith
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.LibraryEventLogger -  LIBRARY EVENT: BOOK_RETURNED - Effective Java returned by Alice Johnson
+2025-07-02 20:37:01 [main] INFO  c.p.l.observer.InventoryObserver -  INVENTORY: Book returned - Effective Java returned by Alice Johnson
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - All observer notifications logged above!
+2025-07-02 20:37:01 [main] INFO  com.pm.library.LibraryApplication - === Design Patterns Demo Completed ===
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Started ===
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Adding books (watch for observer notifications):
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.InventoryObserver - 📊 Inventory Update: Total books now: 1
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.InventoryObserver - 📊 Inventory Update: Total books now: 2
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.InventoryObserver - 📊 Inventory Update: Total books now: 3
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Total books in system: 3
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Searching by different strategies:
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Search by title 'Java': 1 results
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Search by author 'Martin': 1 results
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Search by ISBN '978-0134685991': 1 results
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Search by year '2018': 1 results
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - --- LENDING OPERATIONS WITH OBSERVER NOTIFICATIONS ---
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Registered 2 patrons
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Performing lending operations:
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:53:44 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully checked out to patron 'Alice Johnson'
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 1: SUCCESS
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:53:44 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully checked out to patron 'Bob Smith'
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 2: SUCCESS
+2025-07-02 21:53:44 [main] WARN  c.pm.library.service.LendingService - Book 978-0134685991 is not available for checkout. Current status: CHECKED_OUT
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 3 (should fail): FAILED
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:53:44 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully returned
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Return attempt 1: SUCCESS
+2025-07-02 21:53:44 [main] INFO  c.p.l.observer.LibraryEventLogger - 📚 Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:53:44 [main] DEBUG c.p.l.observer.InventoryObserver - 📈 Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:53:44 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully returned
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - Return attempt 2: SUCCESS
+2025-07-02 21:53:44 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Demo Complete ===
+2025-07-02 21:55:41 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Started ===
+2025-07-02 21:55:42 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Adding books (watch for observer notifications):
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 1
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 2
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 3
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Total books in system: 3
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Searching by different strategies:
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Search by title 'Java': 1 results
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Search by author 'Martin': 1 results
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Search by ISBN '978-0134685991': 1 results
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Search by year '2018': 1 results
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - --- LENDING OPERATIONS WITH OBSERVER NOTIFICATIONS ---
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Registered 2 patrons
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Performing lending operations:
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:55:43 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully checked out to patron 'Alice Johnson'
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 1: SUCCESS
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 21:55:43 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully checked out to patron 'Bob Smith'
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 2: SUCCESS
+2025-07-02 21:55:43 [main] WARN  c.pm.library.service.LendingService - Book 978-0134685991 is not available for checkout. Current status: CHECKED_OUT
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 3 (should fail): FAILED
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:55:43 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully returned
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Return attempt 1: SUCCESS
+2025-07-02 21:55:43 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:55:43 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 21:55:43 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully returned
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - Return attempt 2: SUCCESS
+2025-07-02 21:55:43 [main] INFO  com.pm.library.LibraryApplication - === Library Management System Demo Complete ===
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - === Library Management System  ===
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - --- OBSERVER PATTERN DEMONSTRATION ---
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Adding books (watch for observer notifications):
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 1
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Effective Java by Joshua Bloch (ISBN: 978-0134685991)
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 2
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Clean Code by Robert C. Martin (ISBN: 978-0132350884)
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.InventoryObserver - Inventory Update: Total books now: 3
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_ADDED - Added book: Design Patterns by Gang of Four (ISBN: 978-0201633612)
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Total books in system: 3
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - --- STRATEGY PATTERN DEMONSTRATION ---
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Searching by different strategies:
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_TITLE for 'Java' returned 1 results
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Search by title 'Java': 1 results
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_AUTHOR for 'Martin' returned 1 results
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Search by author 'Martin': 1 results
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_ISBN for '978-0134685991' returned 1 results
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Search by ISBN '978-0134685991': 1 results
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_SEARCH - Search by BY_YEAR for '2018' returned 1 results
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Search by year '2018': 1 results
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - --- LENDING OPERATIONS WITH OBSERVER NOTIFICATIONS ---
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Registered 2 patrons
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Performing lending operations:
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 22:00:59 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully checked out to patron 'Alice Johnson'
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 1: SUCCESS
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from AVAILABLE to CHECKED_OUT
+2025-07-02 22:00:59 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully checked out to patron 'Bob Smith'
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 2: SUCCESS
+2025-07-02 22:00:59 [main] WARN  c.pm.library.service.LendingService - Book 978-0134685991 is not available for checkout. Current status: CHECKED_OUT
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Checkout attempt 3 (should fail): FAILED
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0134685991 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 22:00:59 [main] INFO  c.pm.library.service.LendingService - Book 'Effective Java' successfully returned
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Return attempt 1: SUCCESS
+2025-07-02 22:00:59 [main] INFO  c.p.l.observer.LibraryEventLogger - Library Event: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 22:00:59 [main] DEBUG c.p.l.observer.InventoryObserver - Inventory tracking: BOOK_STATUS_UPDATED - Book 978-0132350884 status changed from CHECKED_OUT to AVAILABLE
+2025-07-02 22:00:59 [main] INFO  c.pm.library.service.LendingService - Book 'Clean Code' successfully returned
+2025-07-02 22:00:59 [main] INFO  com.pm.library.LibraryApplication - Return attempt 2: SUCCESS
